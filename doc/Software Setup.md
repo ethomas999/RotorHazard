@@ -3,7 +3,7 @@
 ### Receiver Nodes (Arduinos)
 Note: The latest Arduino IDE (1.8+) is required from https://www.arduino.cc/en/Main/Software
 
-Open '/RotorHazard/src/delta5node/delta5node.ino' in the Arduino IDE.
+Open 'RotorHazard/src/delta5node/delta5node.ino' in the Arduino IDE.
 
 Configure the '#define NODE_NUMBER' line of the .ino for each node before uploading. For first node set NODE_NUMBER to 1, for second set it to 2, etc.
 ```
