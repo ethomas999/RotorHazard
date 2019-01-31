@@ -60,7 +60,7 @@ cd python
 sudo python setup.py install
 ```
 
-Install the RotorHazard code under '/home/pi/' on the Raspberry Pi as follows: Go to the [Latest Release page](https://github.com/RotorHazard/RotorHazard/releases/latest) for the project and note the version code. In the commands below, replace the two occurrences of "1.0.0" with the current version code, and enter the commands.
+Install the RotorHazard code under '/home/pi/' on the Raspberry Pi as follows: Go to the [Latest Release page](https://github.com/RotorHazard/RotorHazard/releases/latest) for the project and note the version code. In the commands below, replace the two occurrences of "1.0.0" with the current version code, and enter the commands:
 ```
 cd ~
 wget https://codeload.github.com/RotorHazard/RotorHazard/zip/v1.0.0 -O temp.zip
@@ -69,18 +69,18 @@ mv RotorHazard-1.0.0 RotorHazard
 rm temp.zip
 ```
 
-System update and upgrade.
+System update and upgrade:
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
 
-Install web server packages
+Install web server dependencies:
 ```
 cd /home/pi/RotorHazard/src/delta5server
 sudo pip install -r requirements.txt
 ```
 
-Update permissions in working folder
+Update permissions in working folder:
 ```
 cd ~
 cd /home/pi/RotorHazard/src
